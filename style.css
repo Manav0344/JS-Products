@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.footer {
+  background-color: #e9ecef;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-view {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product-img {
+  border-radius: 10px;
+}
+.product-details {
+  margin-top: 20px;
+}
